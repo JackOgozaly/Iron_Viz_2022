@@ -4,7 +4,7 @@
 
 Repository for my work on Iron Viz 2022. Worked on webscraping data off of MOMA's website and then converting images to a set of X, Y coordinates that could then be plotted in Tableau. 
 
-<im src="https://github.com/JackOgozaly/Iron_Viz_2022/blob/main/Examples/moma.gif">
+![grab-landing-page](https://github.com/JackOgozaly/Iron_Viz_2022/blob/main/Examples/moma.gif?raw=true)
 
 ## Examples
 
