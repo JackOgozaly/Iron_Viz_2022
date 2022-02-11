@@ -19,7 +19,6 @@ import numpy as np
 #Actually really easy to just scrape everything by scraping through random numbers
 #and then just discarding links that don't work
 
-
 #WARNING: This will visit 500k websites. This will obv take a while to run 
 og_combs = []
 for j in range(0,5):
