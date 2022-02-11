@@ -62,7 +62,6 @@ def image_to_dots(image, max_length= 10000, pixel_cutoff=.4, greater_than=False,
                 x_max = x + euclid_distance_margin
                 y_min = y - euclid_distance_margin
                 y_max = y + euclid_distance_margin
-                #euclid_calc_df = test[test['X'] >= x_min and test['X'] <= x_max]
                 euclid_calc_df = image_df[image_df['X'].between(x_min, x_max)]
                 euclid_calc_df = euclid_calc_df[euclid_calc_df['Y'].between(y_min, y_max)]
                 euclid_calc_df['euclid_dist'] = (np.sqrt(((euclid_calc_df['X'] - x)**2).astype(float) + ((euclid_calc_df['Y'] - y)**2).astype(float)))
