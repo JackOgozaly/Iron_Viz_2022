@@ -16,6 +16,7 @@ from io import BytesIO
 import pandas as pd 
 import skimage
 import math
+from skimage import measure
 
 def image_to_dots(image, max_length= 10000, pixel_cutoff=.4, greater_than=False,
                   euclid_dist= 2): 
